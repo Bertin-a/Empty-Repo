@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/BertinaAyuure/IdeaProjects/demo5Selenium/src/test/java/com/example/demo5selenium">
+        <classes>
+            <class name="com.example.demo5selenium.HardAsserts">
+                <methods>
+                    <include name="doSomething"/>
+                    <include name="printStatement"/>
+                </methods>
+            </class>
+            <class name="com.example.demo5selenium.MainPage">
+                <methods>
+                    <include name="login"/>
+                    <include name="printSomethings"/>
+                </methods>
+            </class>
+            <class name="com.example.demo5selenium.publicClassprivate">
+                <methods>
+                    <include name="testMethod2"/>
+                </methods>
+            </class>
+            <class name="com.example.demo5selenium.publicPrivate">
+                <methods>
+                    <include name="test6"/>
+                </methods>
+            </class>
+            <class name="com.example.demo5selenium.softAssert">
+                <methods>
+                    <include name="print"/>
+                    <include name="printSomething"/>
+                </methods>
+            </class>
+            <class name="com.example.demo5selenium.testNGAnnotations">
+                <methods>
+                    <include name="test6"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
